@@ -217,6 +217,7 @@ class SupportedRevitFileInfo():
                     revitVersionNumber = RevitVersion.SupportedRevitVersion.Revit2021
                 elif any(revitVersionText.StartsWith(prefix) for prefix in revit_file_version.REVIT_VERSION_TEXT_PREFIXES_2022):
                     revitVersionNumber = RevitVersion.SupportedRevitVersion.Revit2022
+                # #revit_version
         self.revitVersionText = revitVersionText
         self.revitVersionNumber = revitVersionNumber
         return

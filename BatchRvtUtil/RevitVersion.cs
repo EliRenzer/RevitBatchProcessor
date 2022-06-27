@@ -35,6 +35,7 @@ namespace BatchRvtUtil
                 Revit2020 = 5,
                 Revit2021 = 6,
                 Revit2022 = 7
+                // #revit_version
         }
 
         private const string REVIT_EXECUTABLE_FILE_NAME = "Revit.exe";
@@ -50,6 +51,7 @@ namespace BatchRvtUtil
                 { SupportedRevitVersion.Revit2020, @".\Autodesk\Revit\Addins\2020" },
                 { SupportedRevitVersion.Revit2021, @".\Autodesk\Revit\Addins\2021" },
                 { SupportedRevitVersion.Revit2022, @".\Autodesk\Revit\Addins\2022" }
+                // #revit_version
             };
 
         private static readonly Dictionary<SupportedRevitVersion, string> SUPPORTED_REVIT_VERSION_NUMBERS =
@@ -63,6 +65,7 @@ namespace BatchRvtUtil
                 { SupportedRevitVersion.Revit2020, "2020" },
                 { SupportedRevitVersion.Revit2021, "2021" },
                 { SupportedRevitVersion.Revit2022, "2022" }
+                // #revit_version
             };
 
         private static readonly Dictionary<SupportedRevitVersion, IEnumerable<string>> REVIT_EXECUTABLE_FOLDER_PATHS =
@@ -128,6 +131,7 @@ namespace BatchRvtUtil
                         @"D:\Program Files\Autodesk\Revit 2022"
                     }
                 }
+                // #revit_version
             };
 
         private static readonly Dictionary<SupportedRevitVersion, string> REVIT_LOCAL_FOLDER_PATHS =
@@ -141,6 +145,7 @@ namespace BatchRvtUtil
                 { SupportedRevitVersion.Revit2020, @"C:\REVIT_LOCAL2020" },
                 { SupportedRevitVersion.Revit2021, @"C:\REVIT_LOCAL2021" },
                 { SupportedRevitVersion.Revit2022, @"C:\REVIT_LOCAL2022" }
+                // #revit_version
             };
 
         public static string GetRevitExecutableFolderPath(SupportedRevitVersion revitVersion)
