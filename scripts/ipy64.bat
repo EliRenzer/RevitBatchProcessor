@@ -1,6 +1,6 @@
 @echo off
-set IronPythonFolderPathA="C:\Program Files (x86)\IronPython 2.7"
-set IronPythonFolderPathB="C:\Program Files (x86)\Autodesk"
+set IronPythonFolderPathA="C:\Program Files\IronPython 2.7"
+set IronPythonFolderPathB="C:\Program Files\Autodesk"
 
 if EXIST %IronPythonFolderPathA% (
   set IronPythonFolderPath=%IronPythonFolderPathA%
@@ -16,4 +16,4 @@ if EXIST %IronPythonFolderPathA% (
 
 set IronPythonOptions=-X:AutoIndent -X:TabCompletion -X:ColorfulConsole
 
-%IronPythonFolderPath%\ipy64.exe %IronPythonOptions% %*
+%IronPythonFolderPath%\ipy.exe %IronPythonOptions% %*
