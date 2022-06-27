@@ -1,20 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.156
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRvt", "BatchRvt\BatchRvt.csproj", "{C877620C-DE32-455C-BF21-8F3E73E9DF68}"
 	ProjectSection(ProjectDependencies) = postProject
 		{673D1FB5-CFB2-4BDF-9609-C43979DD7197} = {673D1FB5-CFB2-4BDF-9609-C43979DD7197}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRvtAddin2015", "BatchRvtAddin2015\BatchRvtAddin2015.csproj", "{5BFED691-8D2B-45F7-B210-96D29840B64E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRvtAddin2016", "BatchRvtAddin2016\BatchRvtAddin2016.csproj", "{FE49BFB7-D21D-4B17-9144-D7F2B533EFD2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRvtScriptHost", "BatchRvtScriptHost\BatchRvtScriptHost.csproj", "{673D1FB5-CFB2-4BDF-9609-C43979DD7197}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRvtAddin2017", "BatchRvtAddin2017\BatchRvtAddin2017.csproj", "{E4179471-79E6-4E4C-9ECA-62DE7076A486}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRvtGUI", "BatchRvtGUI\BatchRvtGUI.csproj", "{97687640-0B4D-4E2A-8B77-6EB2CF0F51EC}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -23,11 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRvtGUI", "BatchRvtGUI\
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRvtUtil", "BatchRvtUtil\BatchRvtUtil.csproj", "{B880DD15-184B-4CE2-86FC-08BAC05E0271}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRvtAddin2018", "BatchRvtAddin2018\BatchRvtAddin2018.csproj", "{B546AD64-E309-4498-A839-4A7FC50C14AB}"
-	ProjectSection(ProjectDependencies) = postProject
-		{673D1FB5-CFB2-4BDF-9609-C43979DD7197} = {673D1FB5-CFB2-4BDF-9609-C43979DD7197}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRevitDynamo", "BatchRevitDynamo\BatchRevitDynamo.csproj", "{B2FED296-9EA0-41DD-BB2F-951D481F527B}"
 EndProject
@@ -39,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRvtAddin2021", "BatchR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRvtAddin2022", "BatchRvtAddin2022\BatchRvtAddin2022.csproj", "{5529D2BF-74BD-47A8-A6DE-37006AC07C0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRvtAddin2023", "BatchRvtAddin2023\BatchRvtAddin2023.csproj", "{3F12ECE7-8272-49DB-8D6E-A31D136E06FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -49,22 +40,10 @@ Global
 		{C877620C-DE32-455C-BF21-8F3E73E9DF68}.Debug|x64.Build.0 = Debug|x64
 		{C877620C-DE32-455C-BF21-8F3E73E9DF68}.Release|x64.ActiveCfg = Release|x64
 		{C877620C-DE32-455C-BF21-8F3E73E9DF68}.Release|x64.Build.0 = Release|x64
-		{5BFED691-8D2B-45F7-B210-96D29840B64E}.Debug|x64.ActiveCfg = Debug|x64
-		{5BFED691-8D2B-45F7-B210-96D29840B64E}.Debug|x64.Build.0 = Debug|x64
-		{5BFED691-8D2B-45F7-B210-96D29840B64E}.Release|x64.ActiveCfg = Release|x64
-		{5BFED691-8D2B-45F7-B210-96D29840B64E}.Release|x64.Build.0 = Release|x64
-		{FE49BFB7-D21D-4B17-9144-D7F2B533EFD2}.Debug|x64.ActiveCfg = Debug|x64
-		{FE49BFB7-D21D-4B17-9144-D7F2B533EFD2}.Debug|x64.Build.0 = Debug|x64
-		{FE49BFB7-D21D-4B17-9144-D7F2B533EFD2}.Release|x64.ActiveCfg = Release|x64
-		{FE49BFB7-D21D-4B17-9144-D7F2B533EFD2}.Release|x64.Build.0 = Release|x64
 		{673D1FB5-CFB2-4BDF-9609-C43979DD7197}.Debug|x64.ActiveCfg = Debug|x64
 		{673D1FB5-CFB2-4BDF-9609-C43979DD7197}.Debug|x64.Build.0 = Debug|x64
 		{673D1FB5-CFB2-4BDF-9609-C43979DD7197}.Release|x64.ActiveCfg = Release|x64
 		{673D1FB5-CFB2-4BDF-9609-C43979DD7197}.Release|x64.Build.0 = Release|x64
-		{E4179471-79E6-4E4C-9ECA-62DE7076A486}.Debug|x64.ActiveCfg = Debug|x64
-		{E4179471-79E6-4E4C-9ECA-62DE7076A486}.Debug|x64.Build.0 = Debug|x64
-		{E4179471-79E6-4E4C-9ECA-62DE7076A486}.Release|x64.ActiveCfg = Release|x64
-		{E4179471-79E6-4E4C-9ECA-62DE7076A486}.Release|x64.Build.0 = Release|x64
 		{97687640-0B4D-4E2A-8B77-6EB2CF0F51EC}.Debug|x64.ActiveCfg = Debug|x64
 		{97687640-0B4D-4E2A-8B77-6EB2CF0F51EC}.Debug|x64.Build.0 = Debug|x64
 		{97687640-0B4D-4E2A-8B77-6EB2CF0F51EC}.Release|x64.ActiveCfg = Release|x64
@@ -73,10 +52,6 @@ Global
 		{B880DD15-184B-4CE2-86FC-08BAC05E0271}.Debug|x64.Build.0 = Debug|x64
 		{B880DD15-184B-4CE2-86FC-08BAC05E0271}.Release|x64.ActiveCfg = Release|x64
 		{B880DD15-184B-4CE2-86FC-08BAC05E0271}.Release|x64.Build.0 = Release|x64
-		{B546AD64-E309-4498-A839-4A7FC50C14AB}.Debug|x64.ActiveCfg = Debug|x64
-		{B546AD64-E309-4498-A839-4A7FC50C14AB}.Debug|x64.Build.0 = Debug|x64
-		{B546AD64-E309-4498-A839-4A7FC50C14AB}.Release|x64.ActiveCfg = Release|x64
-		{B546AD64-E309-4498-A839-4A7FC50C14AB}.Release|x64.Build.0 = Release|x64
 		{B2FED296-9EA0-41DD-BB2F-951D481F527B}.Debug|x64.ActiveCfg = Debug|x64
 		{B2FED296-9EA0-41DD-BB2F-951D481F527B}.Debug|x64.Build.0 = Debug|x64
 		{B2FED296-9EA0-41DD-BB2F-951D481F527B}.Release|x64.ActiveCfg = Release|x64
@@ -97,6 +72,14 @@ Global
 		{5529D2BF-74BD-47A8-A6DE-37006AC07C0C}.Debug|x64.Build.0 = Debug|x64
 		{5529D2BF-74BD-47A8-A6DE-37006AC07C0C}.Release|x64.ActiveCfg = Release|x64
 		{5529D2BF-74BD-47A8-A6DE-37006AC07C0C}.Release|x64.Build.0 = Release|x64
+		{0452C3FD-F4BD-4B0A-A96C-AE0211370D61}.Debug|x64.ActiveCfg = Debug|x64
+		{0452C3FD-F4BD-4B0A-A96C-AE0211370D61}.Debug|x64.Build.0 = Debug|x64
+		{0452C3FD-F4BD-4B0A-A96C-AE0211370D61}.Release|x64.ActiveCfg = Release|x64
+		{0452C3FD-F4BD-4B0A-A96C-AE0211370D61}.Release|x64.Build.0 = Release|x64
+		{3F12ECE7-8272-49DB-8D6E-A31D136E06FB}.Debug|x64.ActiveCfg = Debug|x64
+		{3F12ECE7-8272-49DB-8D6E-A31D136E06FB}.Debug|x64.Build.0 = Debug|x64
+		{3F12ECE7-8272-49DB-8D6E-A31D136E06FB}.Release|x64.ActiveCfg = Release|x64
+		{3F12ECE7-8272-49DB-8D6E-A31D136E06FB}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

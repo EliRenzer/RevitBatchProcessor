@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>BatchRvtAddin</Name>
+    <Assembly>.\BatchRvt\BatchRvtAddin2023.dll</Assembly>
+    <AddInId>79725775-D7CE-4A92-B065-87297A85D5DD</AddInId>
+    <FullClassName>BatchRvt.Addin.Revit2023.BatchRvtAddinApplication</FullClassName>
+    <VendorId>BATCHRVT</VendorId>
+  </AddIn>
+</RevitAddIns>
+
+
