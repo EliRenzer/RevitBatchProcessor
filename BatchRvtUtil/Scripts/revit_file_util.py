@@ -124,7 +124,10 @@ def ToGuid(guidOrGuidText):
 def ToCloudPath(cloudProjectId, cloudModelId):
     cloudProjectGuid = ToGuid(cloudProjectId)
     cloudModelGuid = ToGuid(cloudModelId)
-    cloudPath = ModelPathUtils.ConvertCloudGUIDsToCloudPath(cloudProjectGuid, cloudModelGuid)
+    # for revit 2021 and up
+    cloudPath = ModelPathUtils.ConvertCloudGUIDsToCloudPath("US", cloudProjectGuid, cloudModelGuid)
+    # for revit 2020 and down
+    # cloudPath = ModelPathUtils.ConvertCloudGUIDsToCloudPath(cloudProjectGuid, cloudModelGuid)
     return cloudPath
 
 def OpenNewLocal(application, modelPath, localModelPath, closeAllWorksets=False, worksetConfig=None, audit=False):
